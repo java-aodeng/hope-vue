@@ -536,9 +536,17 @@ module.exports = [
       return system_user_changeStatus_data
     }
   },
-  //mock 用户状态修改
+  //mock 用户修改
   {
     url: '/system/user/1',
+    type: 'get',
+    response: config => {
+      return system_user_1_data
+    }
+  },
+  //mock 用户添加
+  {
+    url: '/system/user/',
     type: 'get',
     response: config => {
       return system_user_1_data

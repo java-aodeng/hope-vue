@@ -564,7 +564,7 @@ export default {
     handleAdd() {
       this.reset();
       this.getTreeselect();
-      getUser().then(response => {
+      getUser(1).then(response => {
         this.postOptions = response.posts;
         this.roleOptions = response.roles;
         this.open = true;
