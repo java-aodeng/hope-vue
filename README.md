@@ -44,6 +44,7 @@ npm run build:prod
 
 ## 前端结构
 
+```
 ├── build                      // 构建相关  
 ├── bin                        // 执行脚本
 ├── mock                       // 模拟数据模块 模拟 Ajax 并返回模拟数据
@@ -74,6 +75,7 @@ npm run build:prod
 ├── babel.config.js            // babel.config.js
 ├── package.json               // package.json
 └── vue.config.js              // vue.config.js
+```
 
 ## 参考资料
 https://segmentfault.com/a/1190000022829660 如何在5天内学会Vue
