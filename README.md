@@ -2,9 +2,20 @@
 学习vue的小项目
 >  <a href="https://github.com/java-aodeng">Author：低调小熊猫</a>
 
+## 技术选型
+前端技术
+Vue
+Vuex
+Element-ui
+Axios
+Sass
+Quill
+Mock
+
+
 ```bash
 # 克隆项目
-git clone https://gitee.com/y_project/RuoYi-Vue
+git clone https://github.com/java-aodeng/hope-vue-study
 
 # 进入项目目录
 cd hope-vue-study
