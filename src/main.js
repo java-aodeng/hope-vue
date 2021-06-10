@@ -44,6 +44,10 @@ Vue.prototype.msgInfo = function (msg) {
   this.$message.info(msg);
 }
 
+Vue.prototype.msgSuccessNotify = function (msg) {
+  this.$notify({title: '提示', message: msg, type: "success"});
+}
+
 // 全局组件挂载
 Vue.component('Pagination', Pagination)
 Vue.component('RightToolbar', RightToolbar)

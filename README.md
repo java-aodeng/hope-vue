@@ -1,5 +1,5 @@
-## hope-vue-study
-学习vue的小项目
+## hope-vue
+vue学习
 >  <a href="https://github.com/java-aodeng">Author：低调小熊猫</a>
 
 ## 技术选型

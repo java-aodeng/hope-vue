@@ -293,9 +293,20 @@ const data = Mock.mock({
           "name": "Demo",
           "path": "demo",
           "hidden": false,
-          "component": "test/demo/demo",
+          "component": "test/demo/demo.vue",
           "meta": {
             "title": "子菜单1",
+            "icon": "tool",
+            "noCache": false
+          }
+        },
+        {
+          "name": "From",
+          "path": "from",
+          "hidden": false,
+          "component": "test/from/from.vue",
+          "meta": {
+            "title": "子菜单2",
             "icon": "tool",
             "noCache": false
           }
